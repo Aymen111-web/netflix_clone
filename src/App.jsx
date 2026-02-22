@@ -11,7 +11,7 @@ function App() {
 
 
     <div className="App">
-      <h1>Netflix Clone</h1>
+
       <Banner />
       <Row
         title="NETFLIX ORIGINALS"
