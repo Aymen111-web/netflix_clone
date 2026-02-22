@@ -2,6 +2,7 @@ import React from "react";
 import './App.css'
 import Row from "./Row";
 import requests from "./requests";
+import Banner from "./Banner";
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
 
     <div className="App">
       <h1>Netflix Clone</h1>
+      <Banner />
       <Row
         title="NETFLIX ORIGINALS"
         fetchUrl={requests.fetchNetflixOriginals}
