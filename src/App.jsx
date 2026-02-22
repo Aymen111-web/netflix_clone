@@ -3,6 +3,7 @@ import './App.css'
 import Row from "./Row";
 import requests from "./requests";
 import Banner from "./Banner";
+import Nav from "./Nav";
 
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
 
 
     <div className="App">
-
+      <Nav />
       <Banner />
       <Row
         title="NETFLIX ORIGINALS"
