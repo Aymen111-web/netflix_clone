@@ -29,6 +29,9 @@ function App() {
         title="Documentaries Movies"
         fetchUrl={requests.fetchDocumentaries}
       />
+      <footer style={{ color: "gray", textAlign: "center", padding: "20px", fontSize: "12px" }}>
+        This is a non-commercial portfolio project created for educational purposes. It is not affiliated with or endorsed by Netflix.
+      </footer>
     </div>
   )
 }
